@@ -1,0 +1,22 @@
+.currency-table {
+	margin-top: 20px;
+	table {
+		width: 100%;
+		border-collapse: collapse;
+		margin-right: 1.2rem;
+		th,
+		td {
+			padding: 0.4rem;
+			border: 1px solid rgba(0, 0, 0, 0.1);
+			text-align: center;
+		}
+		button {
+			padding: 0.4rem 0.8rem;
+			background-color: rosybrown;
+			color: #fff;
+			border: none;
+			cursor: pointer;
+			border-radius: 0.4rem;
+		}
+	}
+}

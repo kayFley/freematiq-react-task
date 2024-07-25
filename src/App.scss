@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+
+body {
+	background-color: gainsboro;
+}
+
+* {
+	font-family: 'Inter', system-ui !important;
+	box-sizing: border-box;
+	user-select: none;
+}
+
+.App {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 16px;
+	max-width: 840px;
+	margin: 64px auto;
+	background-color: #fff;
+	padding: 1.2rem;
+	box-shadow: 0 12px 24px rgba(0, 0, 0, 0.04);
+	border-radius: 0.4rem;
+}
+
+@media (min-width: 768px) {
+	.App {
+		grid-template-columns: 1fr 1fr;
+		margin: 128px auto;
+		padding: 1.6rem;
+	}
+	.currencies li {
+		flex: 1;
+	}
+}
